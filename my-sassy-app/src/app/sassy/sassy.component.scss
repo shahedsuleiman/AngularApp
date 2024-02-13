@@ -12,7 +12,7 @@ $opacity-color:    rgba( $base-color, .5 );
 $tint-color:       tint( $base-color, 50% );
 $shade-color:      shade( $base-color, 50% );
 
-// dynamically changes the text color based on the lightness of the primary color: http://thesassway.com/intermediate/dynamically-change-text-color-based-on-its-background-with-sass
+// dynamically changes the text color based on the lightness of the primary color
 @function set-text-color($color) {
   @if (lightness($color) >= 50) {
     @return #000000; // Lighter backgorund, return dark color
