@@ -1,26 +1,10 @@
-$header :  #c6538c;
-h1 {
-    color : $header ;
+@mixin circle ($width, $height , $color, $radius){
+    width: $width;
+    height: height;
+    background: $color;
+    border-radius: $radius;
 }
 
-.accordion {
-  //suffixes
-  max-width: 600px;
-  margin: 4rem auto;
-  width: 90%;
-  font-family: "Raleway", sans-serif;
-  background: #f4f4f4;
-
-  &__copy {
-    display: none;
-    padding: 1rem 1.5rem 2rem 1.5rem;
-    color: gray;
-    line-height: 1.6;
-    font-size: 14px;
-    font-weight: 500;
-
-    &__open {
-      display: block;
-    }
-  }
-}
+.circle-red {
+    @include circle (350px,350px,red, 100%);
+ }
