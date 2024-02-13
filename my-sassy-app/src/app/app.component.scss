@@ -1,3 +1,4 @@
+// @import './sassy/sassy.component.scss';
 // @mixin circle ($width, $height , $color, $radius){
 //     width: $width;
 //     height: $height;
@@ -9,6 +10,10 @@
 // .circle-red {
 //     @include circle (359px,350px,red, 100%);
 //  }
+// @import "chroma";
+    // .transparent-blue {
+    //     filter: chroma(color=#ff5cc9);
+    // }
 
 
     $primary-box-color: #112055;
@@ -69,3 +74,7 @@
     background-color: $secondary-box-color;
     color: $secondary-box-text;
   }
+
+
+
+ 
