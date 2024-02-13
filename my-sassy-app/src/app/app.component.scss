@@ -10,10 +10,6 @@
 // .circle-red {
 //     @include circle (359px,350px,red, 100%);
 //  }
-// @import "chroma";
-    // .transparent-blue {
-    //     filter: chroma(color=#ff5cc9);
-    // }
 
 
     $primary-box-color: #112055;
@@ -29,10 +25,10 @@
     $shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
   
   
-  $primary-box-colors: #112055;
-  $primary-box-color-lighter: lighten($primary-box-colors, 20%);
-  $primary-box-color-darker: darken($primary-box-colors, 10%); 
-  
+    $primary-box-colors: #112055;
+    $primary-box-color-lighter: lighten($primary-box-colors, 20%);
+    $primary-box-color-darker: darken($primary-box-colors, 10%); 
+    
   .box__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
